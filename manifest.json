@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "LeetCode Streak Dot Fixer",
+  "version": "1.0.0",
+  "description": "Turns the red 'missed daily' dot green on LeetCode's calendar widget once you've solved that problem late, without touching the default on-time checkmark.",
+  "host_permissions": ["https://leetcode.com/*"],
+  "content_scripts": [
+    {
+      "matches": ["https://leetcode.com/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
