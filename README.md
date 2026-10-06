@@ -10,25 +10,8 @@ reflects reality instead of just punishing you forever for one bad day.
 - 🟢 Green checkmark — solved late, but solved
 
 <p align="center">
-  <img src="assets/preview.png" width="100%" alt="LeetCode problem set page with the extension: late-solved days show green checkmarks next to LeetCode's blue on-time checkmarks" />
+  <img src="assets/demo.gif" width="90%" alt="Animation: LeetCode's calendar with red missed-day dots, which the extension turns into green checkmarks for days solved late" />
 </p>
-
-## Before / After
-
-<table>
-  <tr>
-    <th width="50%" align="center">Before</th>
-    <th width="50%" align="center">After</th>
-  </tr>
-  <tr>
-    <td width="50%" align="center"><img src="assets/before.png" width="80%" /></td>
-    <td width="50%" align="center"><img src="assets/after.png" width="80%" /></td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">If you miss a daily problem, it stays red forever, even after you solve it later.</td>
-    <td width="50%" align="center">Even if you missed a daily problem, once you solve it later it gets a green checkmark — only still-unsolved daily problems stay red.</td>
-  </tr>
-</table>
 
 ## How to use it
 
@@ -114,5 +97,3 @@ On leetcode.com, open DevTools and run:
   dots, the retry state, the signed-in user and the raw response for the
   shown month.
 - `__lcDotFixerCache()` — shows what's saved for your account.
-
-Developer notes are in [devnotes/how-it-works.md](devnotes/how-it-works.md).
